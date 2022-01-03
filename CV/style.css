@@ -1,0 +1,16 @@
+body{
+    background-color: blanchedalmond;
+    font-familys: ;
+}
+.continer{
+    max-width: 1000px;
+    background-color: coral;
+    margin: 0px auto;
+}
+.profile-image{
+    height: 100px;
+    widows: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color: white;
+}

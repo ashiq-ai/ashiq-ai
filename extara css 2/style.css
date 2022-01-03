@@ -1,0 +1,40 @@
+.box{
+    background: red;
+    height: 300px;
+    width: 300px;
+    animation: home 3s infinite;
+    position: absolute;
+}
+@keyframes home{
+  0%{
+        top: 0;
+        left: 0;
+        transform: rotate(100deg);
+    }
+
+    25%{
+        top: 100px;
+        left: 100px;
+        transform: scale(1.5) rotatex(40deg);
+        background: green;
+    }
+    50%{
+        top:50px;
+        left: 500px;
+        transform: scale(.5)rotatey(40deg);
+        background: yellow;
+    }
+    70%{
+        top: 220px;
+        left: 800px;
+        transform: scale(2.5)rotate(140deg);
+        background: purple;
+        
+
+    }
+    100%{
+        top: 500px;
+        left: 0px;
+
+    }
+}

@@ -1,0 +1,19 @@
+
+.addd a{
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+
+}
+.addd{
+    width: 300px;
+    position: fixed;
+    top: 100px;
+    right: 0;
+}
+.addd img{
+    width: 100%;
+}

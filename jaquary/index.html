@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquary partices</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"> </script>
+</head>
+<body>
+
+<a href="#">Click Here</a>
+</br>
+</br>
+</br>
+<div class="box"></div>
+
+
+    <script>
+        (function($){
+            $(document).ready(function(){
+
+                $('a').click(function(){
+
+                    $('.box').slideToggle(3000);
+
+                     return false;
+                });   
+            })
+
+        })(jQuery);
+
+    </script>
+
+    
+</body>
+</html>

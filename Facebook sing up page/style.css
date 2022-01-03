@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding:o;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-area{
+    background: rgb(70, 70, 163);
+    padding: 8px 0;
+}
+.logo-area img{
+    margin-top: 18px;
+}
+.middle-area{
+    width: 80%;
+    margin: auto;
+}
+
+.header-area:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.logo-area{
+    width: 60%;
+    float: left;
+}
+
+.login-area{
+    width: 40%;
+    float: left;
+}
+.login-first {
+    float: left;
+}
+.login-second{
+    float:left;
+}
+.login-submit{
+    float: left;
+}
+.login-form:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.login-area form{
+    float: right;
+}
+.login-area input{
+    display: block;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid #1D2a5b;
+}
+.login-area label{
+    color: white ;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 5px;
+    display: block;
+}
+.login-second a {
+    color: #9cb4db;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.login-submit input{
+  
+    background: #4267b2;
+    border:2px solid #4267b2 ;
+    color: white;
+    margin-top: 24px;
+    cursor: pointer;
+    transition-duration: .5s;
+
+}
+.login-submit input:hover{
+    color: red
+}
+.singup-area{
+    background:linear-gradient(white, #D4D9E8);
+}
+.singup-area:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.singup-left{
+    width: 60%;
+    float: left;
+}
+.singup-right{
+    width: 40%;
+    float: left;
+}
+.singup-left p{
+    color: #0E388A;
+    font-size: 20px;
+    font-weight:bold ;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+}
+.singup-right h2{
+    color: #333;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.singup-right >p{
+    color: #333;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.singup-right input[type="text"] ,.singup-right input[type="password"]{
+    width: 100%;
+    font-size: 18px;
+    padding:5px  ;
+    margin: 5px 0;
+    border-radius: 3px;
+    border: 1px solid #bdc7d8; 
+}
+.singup-right .username input:nth-child(1){
+    width: 49%;
+    float: left;
+}
+.singup-right .username input:nth-child(2){
+    width: 49%;
+    float: right;
+}
+.Birthday h3{
+    color: #333;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 10px 0;
+    
+}
+.bbb-option select {
+    padding: 3px;
+    font-size: 15px;
+    border: 1px solid #bdc7d8;
+}
+.Birthday:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.bbb-option{
+    float: left;
+    margin-right: ;
+}
+
+.bb-link{
+    float: left;
+}
+.bb-link a{
+    color: #365899;
+    font-size: 12px;
+
+}

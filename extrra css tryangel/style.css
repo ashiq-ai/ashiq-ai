@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+.triangel{
+    height: 0px;
+    width: 0px;
+    border-bottom: 220px solid black;
+    border-left: 0px solid green ;
+    border-right: 1372px solid maroon;
+    
+}
+.service-area{
+    height: 300px;
+    background: linear-gradient(black,red);
+    
+}
+.service-area h2{
+    margin: 0px auto;
+    color: white;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 100px;
+    background: green;
+    width: 50%;
+    padding: 10px;
+    font-style: italic;
+
+
+}

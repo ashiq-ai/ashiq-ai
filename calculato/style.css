@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+.card{
+    margin: 0 auto;
+    max-width: 335px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0px 4px 8px 0px gray; 
+    transition: 0.3s;
+    font-size: 0;
+} 
+.card:hover{
+    box-shadow: 0px 16px 32px 0px gray;  
+}
+.calc-head #result{
+    width: 335px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 ;
+    letter-spacing: 2px;
+}
+.btn{
+    height: 70px;
+    width: 83px;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    padding: 5px;
+}

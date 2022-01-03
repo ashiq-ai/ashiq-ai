@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+body{
+    margin: 0px;
+}
+
+.nav-bar{
+    background-color: #40868b;
+    padding: 1% 7%;
+    text-align: center;
+}
+.nav-bar .nav-logo img{
+    width: 20%;
+    float: left;
+}
+.nav-bar h1{
+    color: white;
+    margin: 0px;
+    padding-top: 10px;
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: 60%;
+}
+   
+    
+}
+.nav-bar .nav-menu a{
+    background-color: green;
+    border-radius:10px;
+    margin: 10px 0;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    
+.nav-bar .nav-menu a:hover{
+   background-color: grey;
+   
+}

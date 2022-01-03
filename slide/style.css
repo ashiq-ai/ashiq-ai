@@ -1,0 +1,44 @@
+.raima{
+   background-image: url(img/raima.png);
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.raima:before{
+    background: navy (212, 196, 135);
+    width: 250px;
+    height: 500px;
+    content: '';
+    display: block;
+    clear: both;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 3s;
+}
+.raima:after{
+    background: navy (212, 196, 135);
+    width: 250px;
+    height: 500px;
+    content: '';
+    display: block;
+    clear: both;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transition: 3s;
+}
+.raima:hover:before {
+    left: -250px;
+    background: red;
+    transform: rotatey(180deg);
+
+}
+.raima:hover:after{
+    right:-250px;
+    background: red; 
+    transform: rotatey(180deg);
+}

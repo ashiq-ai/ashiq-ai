@@ -1,0 +1,43 @@
+body{
+    background-image: url(images/29nhJr.png);
+    background-size: cover;
+}
+.full-form{
+    width: 360px;
+    margin: 100px auto;
+    background: rgba(0, 0, 0, .4);
+    padding: 50px 30px;
+    border-radius: 5px;
+}
+.full-form input{
+    display: block;
+    width: 60%;
+    padding: 10px;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    border: 1px solid rgb(166, 255, 0);
+    border-radius: 5px;
+}
+.full-form label{
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 2px 0;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.full-form input[type=submit] {
+    width: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.full-form p a {
+    color: yellow;
+}
+.full-form p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

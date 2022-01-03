@@ -1,0 +1,34 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar{
+    background: aqua;
+    text-align: center;
+    padding: 10px 15px;
+}
+.nav-bar h1{
+    color: whitesmoke;
+   padding-top: 10px;
+   margin: 0px;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+  
+}
+.nav-menu a{
+    background-color: #0c6168;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.nav-menu a:hover{
+    background-color: gray;
+}
